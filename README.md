@@ -26,3 +26,4 @@ In a GNUstep Desktop, you should copy the `.help` bundle into the related app. H
  
 The installation will be automated with a new item in `AgnostepManager`.
 This should be available soon and evoluate as the GNUstep implementation does.
+- See [AGNoStep Desktop](../../../agnostep-desktop).
