@@ -1,11 +1,7 @@
 <section name="4.1 Set the Default printer">
 
 <ul>
-<li>Open a new Shell in the Terminal app. Then execute:
-				<listing>
-					Setup_Printer&nbsp;&nbsp;&nbsp;&nbsp;
-				</listing>
-</li>
+<li>Open <code>Applications / Utilities / Printer.app</code>...</li>
 <li>Inside the CUPS Web interface, if the 'Printers' list is empty, select the 'Admininstration' tab. </li>
 <li>Then click on [Find New Printers]... Add the new found printer.</li>
 <li>When your new printer has been added, in the 'Printers' list, select the desired printer.</li>

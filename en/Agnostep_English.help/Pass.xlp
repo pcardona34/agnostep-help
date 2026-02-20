@@ -83,4 +83,19 @@ man&nbsp;pass&nbsp;&nbsp;&nbsp;
 
 </section>
 
+<section name="8.5 Using with a Web Browser">
 
+If you chose <code>Firefox</code> wrapper, a <code>pass</code> extension has been installed too. 
+
+Otherwise:
+<ul>
+<li>Just select and copy from the Terminal using <code>ALT+c<:code>.</li>
+<li>Then paste in the Web Browser field with <code>CTRL+v</code></li>
+</ul>
+
+<br />
+<caution>
+Be aware of Firefox nor Chromium are not GNUstep native apps. So they use Xorg shortcuts (with prefix CTRL) while Terminal, which is GNUstep app, use the GNUstep shortcuts which prefix is <code>CMD</code> (i.e.: <i>command</i>, that is mapped to left ALT key on a GNU/Linux system.)
+</caution>
+
+</section>

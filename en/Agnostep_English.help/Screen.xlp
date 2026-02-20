@@ -16,6 +16,7 @@ To launch the full screensaver mode, select the menu item:<br>
 Run &nbsp;&nbsp;&nbsp;
 </listing>
 
+</section>
 <section name="5.2 Quitting">
 
 Just click somewhere on the desktop. The menu of 'InnerSpace' arises.<br>
@@ -24,5 +25,24 @@ To stop it, select on the menu:<br>
 <listing>
 Quit &nbsp;&nbsp;&nbsp;
 </listing>
+
+</section>
+
+<section name="5.3. Locking the screen">
+
+<caution>
+Be aware of InnerSpace is not a screen Locker.
+</caution>
+
+To lock your screen, use instead <code>Applications / Utilities / ScreenLock.app</code>.
+
+<section name="5.4. Unlocking the screen">
+
+To unlock your locked screen, just type your password and hit <code>Enter</code>.
+
+<br />
+<information>
+You will not see a textField: when you see the black screen and the lock pointer, just type as explained above.
+</information>
 
 </section>

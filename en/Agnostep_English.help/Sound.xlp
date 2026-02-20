@@ -3,6 +3,11 @@
 Maybe you will need to set the sound to work with Alsa.
 Read the relevant help on the Debian online documentation.
 
+<br />
+<caution>
+With the last release of Agnostep, we tried to get it working ahead from the <code>Prep</code> stage. The following Howto section could be useful only if you did not set it previously.
+</caution>
+
 <section name="3.1.1 How to set a working sound on a MacBookPro Intel">
 
 <b>Example with my model 6.2 (Intel Core i5, 2010, 15")</b>
