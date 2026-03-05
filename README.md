@@ -1,9 +1,5 @@
 # Agnostep Help
 
-> [!CAUTION]
-> With the latest release of HelpViewer, the .help guides do not show up anymore.
-> We must wait for it to be resolved.
-
 There are the `.help` (i.e. Help Bundles) to use with GNUstep **HelpViewer** [^1]
 
 [^1]: To install this app within Agnostep-Desktop, use `AgnostepManager` and select **Util** item.
@@ -18,7 +14,7 @@ The screenshots used to illustrate those guides were mostly taken from the Agnos
 
 Until now, you have:
 - [English](en) (default)
-- [French](en)
+- [French](fr)
 
 ## Installation
 

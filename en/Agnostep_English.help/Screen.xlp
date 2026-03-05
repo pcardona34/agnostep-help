@@ -36,6 +36,7 @@ Be aware of InnerSpace is not a screen Locker.
 
 To lock your screen, use instead <code>Applications / Utilities / ScreenLock.app</code>.
 
+</section>
 <section name="5.4. Unlocking the screen">
 
 To unlock your locked screen, just type your password and hit <code>Enter</code>.

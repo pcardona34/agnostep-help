@@ -26,3 +26,23 @@ Quit &nbsp;&nbsp;&nbsp;
 </listing>
 
 </section>
+
+<section name="5.3. Verrouiller l'écran">
+
+<caution>
+Attention! Innerspace n'est pas un outil de verrouillage de l'écran.
+</caution>
+
+Pour verrouiller votre écran, utilisez plutôt <code>Applications / Utilitaires / ScreenLock.app</code>.
+
+</section>
+<section name="5.4. Unlocking the screen">
+
+To unlock your locked screen, saisissez simplement votre mot de  passe au clavier,puis validez par <code>Entrée</code>.
+
+<br />
+<information>
+Vous ne verrez pas de champ de saisie: when vous voyez l'écran noir et le pointeur en forme de cadenas, tapez votre mot de passe comme expliqué ci-dessus.
+</information>
+
+</section>

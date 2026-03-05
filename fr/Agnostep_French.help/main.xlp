@@ -6,10 +6,10 @@
 
 <plain name="Couverture">
 
-		<center><img src="banniere_UG.tiff"><br>&nbsp;</center>
+		<center><img src="banniere_UG.tiff"><br />&nbsp;</center>
 
 <left>	
-	    <br>&nbsp;<br>
+	    <br />&nbsp;<br />
 		<information>
 	    <br />AGNoStep est un acronyme pour: AGNostic GNUstep (Desktop). 
 		<br />Cela signifie un Environnement de Bureau sur un ordinateur bénéficiant du  cadre logiciel GNUstep.&nbsp;&nbsp;
@@ -20,12 +20,12 @@
 	    (c) 2025 Patrick Cardona. Ce projet est un Logiciel Libre fourni sous la licence publique générale GNU (GPL).
 	    </caution>
 	    
-	    <br>Site: <url>https://github.com/pcardona34/agnostep</url>&nbsp;
-	    <br>&nbsp;
+	    <br />&nbsp;
 
 		<note>
-	    <br>Veuillez y reporter tout éventuel problème.&nbsp;&nbsp;<br>&nbsp;
-	    <br>&nbsp;
+	    <br />Site: <url>https://github.com/pcardona34/agnostep</url>&nbsp;
+	    <br />Veuillez y reporter tout éventuel problème.&nbsp;&nbsp;<br />&nbsp;
+	    <br />&nbsp;
 	    </note>
 </left>
 </plain>
