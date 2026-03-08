@@ -26,14 +26,14 @@ Sur un ordinateur personnel, voici comment ces fonctions sont associées aux tou
 <li>ALTERNATIVE: Alt-droite</li>
 </ul>
 
-<br>Attendu que cette association peut être modifiée, au sein du présent document nous emploierons de préférences les noms complets de ces fonctions pour indiquer les touches à utiliser.
+Attendu que cette association peut être modifiée, au sein du présent document nous emploierons de préférences les noms complets de ces fonctions pour indiquer les touches à utiliser.
 
 </section>
 
 <section name="Premier contact">
 
 Avant de commencer à travailler avec 'GWorkspace', assurons-nous d'avoir affiché son bureau. Pour ce faire, démarrez 'GWorkspace' si ce n'est pas encore fait. Cliquez dans le menu 'Outils' sur l'item "Montrer le bureau" (cf. figure 1).
-<br>
+
 
 <section name="Figure 1: Montrer le bureau">
 <legendfig src="ToolsShowDesktop.tiff">
@@ -41,11 +41,11 @@ Avant de commencer à travailler avec 'GWorkspace', assurons-nous d'avoir affich
 </legendfig>
 </section>
 
-<br>
-<note><br>Au sein du bureau AGNoStep, le bureau de GWorkspace est déjà affiché.&nbsp;&nbsp;&nbsp;<br>;&nbsp;<br></note>
 
-<br>
+<note>
+Au sein du bureau AGNoStep, le bureau de GWorkspace est déjà affiché.
+</note>
+
+
 
 </section>
-
-

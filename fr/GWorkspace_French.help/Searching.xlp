@@ -1,6 +1,6 @@
 <section  name="Introduction">
 
-Quand vous avez sélectionné le dossier "Démo" et saisi au clavier la combinaison <b>COMMANDE-f</b>&nbsp; le dialogue de Recherche est démarré. La Recherche est aussi  disponible via le menu "Outils".
+Quand vous avez sélectionné le dossier "Démo" et saisi au clavier la combinaison <b>COMMANDE-f</b> le dialogue de Recherche est démarré. La Recherche est aussi  disponible via le menu "Outils".
 
 <section name="Figure 4.1: Dialogue de Recherche">
 <legendfig src="Search_Panel.tiff">
@@ -13,7 +13,7 @@ Quand vous avez sélectionné le dossier "Démo" et saisi au clavier la combinai
 </legendfig>
 </section>
 
-<br><br>Si vous cherchez avec le critère "Nom" "contient" / "est" et que vous cliquez sur le bouton "Chercher", vous obtenez&nbsp;:
+Si vous cherchez avec le critère "Nom" "contient" / "est" et que vous cliquez sur le bouton "Chercher", vous obtenez&nbsp;:
 
 <section name="Figure 4.2: Résultats de la recherche">
 <legendfig src="Results.tiff">
@@ -25,7 +25,7 @@ Quand vous avez sélectionné le dossier "Démo" et saisi au clavier la combinai
 </legendfig>
 </section>
 
-<br><br>Au moyen des boutons plus (+) et moins (-) vous pouvez ajouter ou retirer des options supplémentaires de recherche. De cette manière, vous pouvez créer une équation de recherche complexe pour affiner vos résultats.
+Au moyen des boutons plus (+) et moins (-) vous pouvez ajouter ou retirer des options supplémentaires de recherche. De cette manière, vous pouvez créer une équation de recherche complexe pour affiner vos résultats.
 
 </section>
 
@@ -38,7 +38,7 @@ Vous pouvez démarrer la recherche dans un dossier unique, ou bien vous pourriez
 </legendfig>
 </section>
 
-<br><br>De cette façon, vous pouvez préciser où chercher.
+De cette façon, vous pouvez préciser où chercher.
 
 </section>
 
@@ -46,14 +46,14 @@ Vous pouvez démarrer la recherche dans un dossier unique, ou bien vous pourriez
 
 L'option de recherche par "nom" vous offre la possibilité de chercher un fichier ou un dossier par son nom. Pour chercher la correspondance exacte, c'est l'option '"est". Si par contre vous ne connaissez qu'une partie du nom, l'option de recherche "contient" pourrait s'avérer plus efficace.
 
-<br><br>Pour affiner votre recherche, vous pourriez exclure certains items avec l'option "ne contient pas" ou encore l'option "commence par". Si vous connaissez l'extension du fichier, vous pourriez par exemple filtrer tous les fichiers ".txt" en employant l'option "finit par".
+Pour affiner votre recherche, vous pourriez exclure certains items avec l'option "ne contient pas" ou encore l'option "commence par". Si vous connaissez l'extension du fichier, vous pourriez par exemple filtrer tous les fichiers ".txt" en employant l'option "finit par".
 
 <section name="Figure 4.4: Options de recherche sur le nom">
 <legendfig src="Search_Name.tiff">
 </legendfig>
 </section>
 
-<br><br>le champ de saisie du texte est sensible à la casse. On distinguera ainsi bas de casse et capitales.
+le champ de saisie du texte est sensible à la casse. On distinguera ainsi bas de casse et capitales.
 
 </section>
 
@@ -61,7 +61,7 @@ L'option de recherche par "nom" vous offre la possibilité de chercher un fichie
 
 La recherche par type de fichier permet deux variantes: correspond ou ne correspond pas, à savoir&nbsp;: 'est' ou 'n'est pas'
 
-<br><br>Actuellement, la recherche permet de trouver des dossiers, des outils, des applications, des liens symboliques et bien sûr des fichiers normaux tels que des documents.
+Actuellement, la recherche permet de trouver des dossiers, des outils, des applications, des liens symboliques et bien sûr des fichiers normaux tels que des documents.
 
 <section name="Figure 4.5: Recherche par type de fichier">
 <legendfig src="Search_Type.tiff">
@@ -74,13 +74,13 @@ La recherche par type de fichier permet deux variantes: correspond ou ne corresp
 
 En utilisant la recherche de contenus, on peut explorer le contenu des documents pour y trouver des correspondances. Notez que cela peut constituer une lourde tâche pour votre ordinateur étant donné que pour explorer tous les contenus, le programme doit ouvrir et refermer chaque fichier concerné.
 
-<br><br>Le texte saisi est sensible à la casse, donc une exacte correspondance avec majuscules et minscules doit être envisagée.
+Le texte saisi est sensible à la casse, donc une exacte correspondance avec majuscules et minscules doit être envisagée.
 </section>
 
 <section  name="4.1.4 Recherche par annotation">
 
 Grâce à l'Inspecteur des "Annotations", on peut associer des mots clés à des fichiers. Et grâce à l'option de recherche par "Annotations", vous pourrez rechercher de tels mots clés.
-<br>Il existe différents manières de rechercher au moyen des annotations.
+Il existe différents manières de rechercher au moyen des annotations.
 
 <section name="Figure 4.6: Recherche par annotation">
 <legendfig src="Search_Annotation.tiff">
@@ -92,7 +92,7 @@ Grâce à l'Inspecteur des "Annotations", on peut associer des mots clés à des
 <section  name="4.1.5 Recherche par la taille">
 
 Cette méthode de recherche est très simple. Vous pouvez chercher selon que la taille excède ou est comprise sous une valeur donnée: "plus grand que" ou "plus petit que".
-<br>En combinant les ajouts (+) vous pouvez affiner presque jusqu'à la taille exacte du document.
+En combinant les ajouts (+) vous pouvez affiner presque jusqu'à la taille exacte du document.
 
 <section name="Figure 4.7: Recherche par taille">
 <legendfig src="Search_Size.tiff">
@@ -111,8 +111,8 @@ En utilisant le filtre de recherche 'est' ou 'n'est pas' et en saisissant le nom
 
 <b>Créé ou modifié</b>
 
-<br><br>Il existe deux façons d'associer une date à un fichier. La permière est la date de création du fichier et la seconde est la date de dernière modification. Le dialogue de recherche vous offre le moyen de chercher sur ces deux dates&nbsp; "Modifié" ou "Créé".
-<br>Ces deux options fonctionnent de la même manière pour saisir les critères de date. Celles de gauche vous permettent de choisir, et selon le cas, celles de droite permettront de saisir plus précisément une date.
+Il existe deux façons d'associer une date à un fichier. La permière est la date de création du fichier et la seconde est la date de dernière modification. Le dialogue de recherche vous offre le moyen de chercher sur ces deux dates&nbsp;: "Modifié" ou "Créé".
+Ces deux options fonctionnent de la même manière pour saisir les critères de date. Celles de gauche vous permettent de choisir, et selon le cas, celles de droite permettront de saisir plus précisément une date.
 
 <section name="Figure 4.8: Recherche par date">
 <legendfig src="Search_Date.tiff">
@@ -125,7 +125,7 @@ En utilisant le filtre de recherche 'est' ou 'n'est pas' et en saisissant le nom
 
 En faisant glisser l'icône "Live Search Folder" (dossier de recherche dynamique en anglais) à partir de la fenêtre de résultats vers un autre dossier, par exemple le "Bureau", vous pouvez sauvegarder la recherche pour de futurs usages. Un dossier de recherche dynamique (Live Search Folder) est un dialogue de recherche conservé dans un fichier et susceptible de se mettre à jour de façon autonome.
 
-<br><br>Pour réutiliser cette recherche, cliquez sur un dossier "Live Search Folder". La fenêtre LSF qui s'ouvrira disposera de deux boutons et d'une liste d'actions&nbsp;; le  bouton "Éditer" ouvre l'édition de la recherche pour en ajuster les critères, la liste permet de définir la fréquence de la mise à jour des résultats&nbsp; enfin le bouton "Mettre à jour" actualise immédiatement le résultat de la recherche.
+Pour réutiliser cette recherche, cliquez sur un dossier "Live Search Folder". La fenêtre LSF qui s'ouvrira disposera de deux boutons et d'une liste d'actions&nbsp;; le  bouton "Éditer" ouvre l'édition de la recherche pour en ajuster les critères, la liste permet de définir la fréquence de la mise à jour des résultats&nbsp;; enfin le bouton "Mettre à jour" actualise immédiatement le résultat de la recherche.
 
 <section name="Figure 4.9: Dossier de recherche dynamique (LiveSearch)">
 <legendfig src="LiveSearch.tiff">

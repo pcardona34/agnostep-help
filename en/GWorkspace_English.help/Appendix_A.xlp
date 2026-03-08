@@ -12,11 +12,8 @@ These daemons are automatically started the first time you start GWorkspace. Not
 <br>The GWorkspace database used by the 'ddbd' daemon can be found in the user's home directory:
 
 <listing>
-&nbsp;<br>
 $GNUSTEP_USER_ROOT/Library/ddbd
-&nbsp;<br>
 </listing>
-
 
 </section>
 

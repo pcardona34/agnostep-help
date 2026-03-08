@@ -2,9 +2,9 @@
 
 The Workspace is the main part within a GNUstep based system. It is supplied to help you get your work done on a computer. GWorkspace is responsible for displaying the GNUstep graphical interface called the Workspace. It is this Workspace where all your interaction with GNUstep begins and ends.
 
-<br>The most important features of the Workspace is the maintenance of files, folders and applications. You can rename, delete and copy files and folders. With the Workspace you can also access SD cards, removable disks or USB-sticks.
+The most important features of the Workspace is the maintenance of files, folders and applications. You can rename, delete and copy files and folders. With the Workspace you can also access SD cards, removable disks or USB-sticks.
 
-<br>This might all seem complex at first, but the Workspace only consists of a few basic parts: The FileViewer for browsing and manipulating files, a menu containing commands and an application Dock for easy access to applications. The Dock also contains the Recycler for deleting files. To get a quick overview see figure 1.1.<br>
+This might all seem complex at first, but the Workspace only consists of a few basic parts: The FileViewer for browsing and manipulating files, a menu containing commands and an application Dock for easy access to applications. The Dock also contains the Recycler for deleting files. To get a quick overview see figure 1.1.
 
 <section name="Figure 1.1: The Workspace">
 <legendfig src="workspace.tiff">
@@ -83,15 +83,15 @@ Icons give a graphical representation of what can be found on your system. It sh
 
 </section>
 
-<br>The idea behind a graphical system like GNUstep is that everything on your system is represented by an icon.
+The idea behind a graphical system like GNUstep is that everything on your system is represented by an icon.
 
-<br>The first icon represents a folder. Folders are place holders for other objects like files and applications.
+The first icon represents a folder. Folders are place holders for other objects like files and applications.
 
-<br>And the second one is the Tool icon. Tools are commandline programs, they can not be run in a graphical environment, and thus have a generic icon to represent them.
+And the second one is the Tool icon. Tools are commandline programs, they can not be run in a graphical environment, and thus have a generic icon to represent them.
 
-<br>Every application that is supported by the GNUstep system has an icon that represents that application. In very rare cases you could come across the Unknon Application icon. But in normal cases you should not.
+Every application that is supported by the GNUstep system has an icon that represents that application. In very rare cases you could come across the Unknon Application icon. But in normal cases you should not.
 
-<br>Files are objects that can be handled by applications, like text files, or spreadsheets. If the system does not know which application can handle a certain file, the Unknown File icon is shown.
+Files are objects that can be handled by applications, like text files, or spreadsheets. If the system does not know which application can handle a certain file, the Unknown File icon is shown.
 
 </section>
 
@@ -99,7 +99,7 @@ Icons give a graphical representation of what can be found on your system. It sh
 
 A window is a part of the screen where you can view the results of your actions. It can hold a document, or a spreadsheet, or in the case of GWorkspace the contents of the filesystem. It is in a window where you perform your actions.
 
-<br>A window consists of a top Title-bar and a bottom Resize-bar. The title bar displays the window name of the window and a couple of control elements, like these on figure 1.2:
+A window consists of a top Title-bar and a bottom Resize-bar. The title bar displays the window name of the window and a couple of control elements, like these on figure 1.2:
 
 <section name="Figure 1.10: Window Title Bar">
 <legendfig src="window-top_bar.tiff">
@@ -109,9 +109,9 @@ A window is a part of the screen where you can view the results of your actions.
 </legendfig>
 </section>
 
-<br>When the minimize button is clicked a mini-window is placed at the bottom of the screen. Double clicking this mini-window resizes it again to full size.
+When the minimize button is clicked a mini-window is placed at the bottom of the screen. Double clicking this mini-window resizes it again to full size.
 
-<br><br>The button on the right closes the window, but is also a <b>status indicator</b>. As long as the cross is solid you can close the window or use <b>COMMAND-w</b>&nbsp; to close it.
+The button on the right closes the window, but is also a <b>status indicator</b>. As long as the cross is solid you can close the window or use <b>COMMAND-w</b> to close it.
 
 <section name="Figure 1.11: Unsaved document indicator">
 <legendfig src="unsaved.tiff">
@@ -119,9 +119,9 @@ A window is a part of the screen where you can view the results of your actions.
 </legendfig>
 </section>
 
-<br>If however the cross changes to a 'broken cross', then something in the window has changed which you might want to save first. So if you edited a document, but did not save it, the cross indicates that it is not saved. Clicking the cross will popup a panel asking you if you want to save or discard the changed contents of the window.
+If however the cross changes to a 'broken cross', then something in the window has changed which you might want to save first. So if you edited a document, but did not save it, the cross indicates that it is not saved. Clicking the cross will popup a panel asking you if you want to save or discard the changed contents of the window.
 
-<br><br>The bottom of the window is made up of a bar that is also refered to as the Resize-bar:
+The bottom of the window is made up of a bar that is also refered to as the Resize-bar:
 
 <section name="Figure 1.12: Window Resize-Bar">
 <legendfig src="window-bottom_bar.tiff">
@@ -131,7 +131,7 @@ A window is a part of the screen where you can view the results of your actions.
 </legendfig>
 </section>
 
-<br><br>The middle part of the resize-bar can be used to make a window larger or smaller. The width stays the same. To also change the width of a window you can use the two smaller parts on the left and on the right. Clicking a part of the Resize-bar and holding down your mouse button while moving you mouse, resizes the window.
+The middle part of the resize-bar can be used to make a window larger or smaller. The width stays the same. To also change the width of a window you can use the two smaller parts on the left and on the right. Clicking a part of the Resize-bar and holding down your mouse button while moving you mouse, resizes the window.
 
 </section>
 
@@ -139,7 +139,7 @@ A window is a part of the screen where you can view the results of your actions.
 
 A special kind of window is the command menu. It does not have a close or minimize button, but otherwise it acts exactly like the other windows.
 
-<br>The command menus hold the commands you can use to control the computer. The entries witin this menu are commands you can access directly like 'Quit' or 'Hide', but they can also have a triangle next to it, which means that those entries lead to a submenu, like 'Info' and 'Edit'.
+The command menus hold the commands you can use to control the computer. The entries witin this menu are commands you can access directly like 'Quit' or 'Hide', but they can also have a triangle next to it, which means that those entries lead to a submenu, like 'Info' and 'Edit'.
 
 <section name="Figure 1.13: Main menu">
 <legendfig src="main_menu.tiff">
@@ -148,33 +148,33 @@ A special kind of window is the command menu. It does not have a close or minimi
 </legendfig>
 </section>
 
-<br><br>Clicking on the triangle will open the submenu, which is a window on its own, so you can access the commands.
+Clicking on the triangle will open the submenu, which is a window on its own, so you can access the commands.
 
-<br>Every application has its own list of commands that can be used. The one presented in this section is the one from GWorkspace. Menus can be moved with the mouse. Put your mouse pointer on the title-bar of the menu, click and keep the mouse button pressed. Now you can move the menu around. Releasing the mouse button will release the menu.
+Every application has its own list of commands that can be used. The one presented in this section is the one from GWorkspace. Menus can be moved with the mouse. Put your mouse pointer on the title-bar of the menu, click and keep the mouse button pressed. Now you can move the menu around. Releasing the mouse button will release the menu.
 
-<br>If you click the Info bar the submenu appears.
+If you click the Info bar the submenu appears.
 
 <section name="Figure 1.14: Submenu">
 <legendfig src="submenu.tiff">
 </legendfig>
 </section>
 
-<br><br>The name of the submenu window gets the name of the menu entry you choose.
-<br>If you now try to move the Info menu you will notice that the main menu stays where it is, but the Info menu will get detached. It becomes a standalone menu which you can move around.
+The name of the submenu window gets the name of the menu entry you choose.
+If you now try to move the Info menu you will notice that the main menu stays where it is, but the Info menu will get detached. It becomes a standalone menu which you can move around.
 
 <section name="Figure 1.15: Detached Submenu">
 <legendfig src="detached_submenu.jpg">
 </legendfig>
 </section>
 
-<br><br>Another thing you will notice is that it gets a close button in the upper right corner. Clicking this button closes the menu.
+Another thing you will notice is that it gets a close button in the upper right corner. Clicking this button closes the menu.
 
 
-<br><br>Menus are windows that belong to the main menu, but can be moved independantly. 
+Menus are windows that belong to the main menu, but can be moved independantly. 
 
-<br><br>The title bar of the menu indicates the name of the bar you have choosen. Not the entire path, but just the name of bar from the previous menu entry.
+The title bar of the menu indicates the name of the bar you have choosen. Not the entire path, but just the name of bar from the previous menu entry.
 
-<br><br>Another thing that you might have noticed is the fact that the entry you selected, like Info stayed highlighted when the menu was still attached to the main menu, to indicate how you got to a certain submenu. But as soon as you detached the menu the path highlighting stops at the last entry still shown.
+Another thing that you might have noticed is the fact that the entry you selected, like Info stayed highlighted when the menu was still attached to the main menu, to indicate how you got to a certain submenu. But as soon as you detached the menu the path highlighting stops at the last entry still shown.
 
 </section>
 
@@ -182,9 +182,9 @@ A special kind of window is the command menu. It does not have a close or minimi
 
 The most important feature of GWorkspace is the access to the filesystem. An example of this feature is presented in figure 1.16.
 
-<br>A computer organises everything that is stored on the harddisk into logical elements. The basic organisation is files and folders, where a folder is an element that can contain files. A folder is also called a directory.
+A computer organises everything that is stored on the harddisk into logical elements. The basic organisation is files and folders, where a folder is an element that can contain files. A folder is also called a directory.
 
-<br>Files are all other objects like documents, spreadsheets, images, etc.
+Files are all other objects like documents, spreadsheets, images, etc.
 
 <section name="Figure 1.16: File Viewer window">
 <legendfig src="FileViewer.tiff">
@@ -196,11 +196,11 @@ The most important feature of GWorkspace is the access to the filesystem. An exa
 </legendfig>
 </section>
 
-<br>The Shelf is a place holder for shortcuts. Initially the only shortcut present is the one to your home folder. (AGNostep Desktop added also the shortcut to the Applications Folder). If you click the home icon you are immediately transfered to the place where you store your files and folders. By dragging files, folders or applications to the Shelf you can create your own shortcuts.
+The Shelf is a place holder for shortcuts. Initially the only shortcut present is the one to your home folder. (AGNostep Desktop added also the shortcut to the Applications Folder). If you click the home icon you are immediately transfered to the place where you store your files and folders. By dragging files, folders or applications to the Shelf you can create your own shortcuts.
 
-<br>The icon path represents the path from the root of the filesystem towards the point where you are now. It always ends at an highlighted folder or file. It is this highlighted element on which you can perform operations, like dragging and dropping.
+The icon path represents the path from the root of the filesystem towards the point where you are now. It always ends at an highlighted folder or file. It is this highlighted element on which you can perform operations, like dragging and dropping.
 
-<br><br>And the last section is the viewing area. Here the contents of the filesystem is displayed. It presents to you in a graphical way the surroundings of the highlighted item.
+And the last section is the viewing area. Here the contents of the filesystem is displayed. It presents to you in a graphical way the surroundings of the highlighted item.
 
 </section>
 

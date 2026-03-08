@@ -37,9 +37,9 @@ Pour réaliser cette mise à niveau du système Debian, vous disposez de plusieu
 
 <section name="7.2.1 Directement à partir de la notification">
 
-<br>Au sein de la variante 'Conky', quand la notification de mise à jour est affichée, le préfixe (A) indique qu'une commande est disponible. Cliquez sur le message avec bouton de droite de votre souris. un menu contextuel est alors affiché en haut de l'écran. Pour exécuter la mise à jour effective, appuyez sur la touche &lt;Entrée&gt;&nbsp; du clavier.
+Au sein de la variante 'Conky', quand la notification de mise à jour est affichée, le préfixe (A) indique qu'une commande est disponible. Cliquez sur le message avec bouton de droite de votre souris. un menu contextuel est alors affiché en haut de l'écran. Pour exécuter la mise à jour effective, appuyez sur la touche &lt;Entrée&gt; du clavier.
 
-Sinon, pour renoncer à cette exécution immédiate, sélectionnez l'autre item du menu avec la touche &lt;Tab&gt;&nbsp;...puis validez pour sortir du menu. 
+Sinon, pour renoncer à cette exécution immédiate, sélectionnez l'autre item du menu avec la touche &lt;Tab&gt;...puis validez pour sortir du menu. 
 
 </section>
 
@@ -47,13 +47,11 @@ Sinon, pour renoncer à cette exécution immédiate, sélectionnez l'autre item 
 
 Vous pouvez aussi utiliser la commande 'apt' ou encore utiliser celle fournie par l'outil 'Updater' fourni par AGNoStep.
 
-<br>Dans une invite de commande du Terminal, exécutez la syntaxe courte ou son équivalent plus explicite&nbsp;:<br>&nbsp;
+Dans une invite de commande du Terminal, exécutez la syntaxe courte ou son équivalent plus explicite&nbsp;:
 
 <listing>
-&nbsp;<br />
-Updater&nbsp;-g &nbsp;&nbsp;&nbsp; <br />
-Updater&nbsp;--upgrade &nbsp;&nbsp;&nbsp; <br />
-&nbsp;
+Updater -g
+<br />Updater --upgrade
 </listing>
 
 </section>

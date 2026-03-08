@@ -1,11 +1,11 @@
 <section name="4.1 Définir l'imprimante par défaut">
 
 <ul>
-<li>Ouvrez une nouvelle invite de commande dans le Terminal. Puis exécutez:
-				<listing>
-					Setup_Printer&nbsp;&nbsp;&nbsp;&nbsp;
-				</listing>
-</li>
+  <li>Exécutez:
+    <listing>
+	  Applications / Utilitaires / Printer.app
+	</listing>
+  </li>
 <li>Dans l'interface Web de CUPS, si la liste des 'Imprimantes' est vide, sélectionnez l'onglet 'Admininstration'. </li>
 <li>Puis cliquez sur [Trouver de nouvelles imprimantes]... Ajoutez la nouvelle imprimante trouvée.</li>
 <li>Quand votre imprimante a été ajoutée, dans la liste des 'Imprimantes', sélectionnez celle que vous désirez utiliser.</li>

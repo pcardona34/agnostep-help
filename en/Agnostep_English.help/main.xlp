@@ -6,25 +6,21 @@
 
 <plain name="Cover">
 
-<center><img src="banniere_UG.tiff"><br>&nbsp;</center>
+<center><img src="banniere_UG.tiff"></center>
 
 <left>	
-<br>&nbsp;<br>
 <information>
-<br />AGNoStep stands for: AGNostic GNUstep Desktop. 
-<br />It means a Desktop Environment on a computer powered by the Framework GNUstep.&nbsp;&nbsp;
-<br />&nbsp;<br />&nbsp;
+AGNoStep stands for: AGNostic GNUstep Desktop. 
+<br />It means a Desktop Environment on a computer powered by the Framework GNUstep.
 </information>
 
 <caution>
-(c) 2025 Patrick Cardona. This project is a Free Software provided under the GNU Public Licence (GPL).
+(c) 2025-2026 Patrick Cardona. This project is a Free Software provided under the GNU Public Licence (GPL).
 </caution>
 
 <note>
-<br />Site: <url>https://github.com/pcardona34/agnostep</url>&nbsp;
-<br />&nbsp;
-<br />Please, post there any&nbsp;issue.&nbsp;&nbsp;<br>&nbsp;
-<br />&nbsp;
+Site: <url>https://github.com/pcardona34/agnostep</url>&nbsp;
+<br />Please, post there any issue.
 </note>
 </left>
 </plain>

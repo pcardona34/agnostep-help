@@ -1,9 +1,9 @@
 {
     "fsn_info_type" = <*I0>;
-    geometry = "903 83 450 860 0 0  1920 1080 ";
+    geometry = "610 132 450 860 0 0  1920 1080 ";
     "hligh_table_col" = <*I1>;
     lastselection = (
-	"/home/patrick/Desktop/HELP/English/GWorkspace_English.help"
+	"/home/patrick/SOURCES/agnostep-desktop/build/agnostep-help/en/GWorkspace_English.help"
     );
     "list_view_columns" = {
 	0 = {

@@ -11,19 +11,19 @@ C'est un fichier texte&nbsp;: chaque lignee ligne constitue un évènement au mo
 
 <ul>
 <li>Syntaxe d'un anniversaire&nbsp;: le mot clé est 'bd':
-<note>Qui=jj/mm/aaaa bd &nbsp;&nbsp;&nbsp;</note>
+<note>Qui=jj/mm/aaaa bd</note>
 </li>
 <li>Syntaxe d'une fête&nbsp;: le mot clé est 'st':
-<note>Qui=jj/mm st &nbsp;&nbsp;&nbsp;</note>
+<note>Qui=jj/mm st</note>
 </li>
 <li>Pour retirer momentanément un événement ou commenter une ligne, ajoutez le symbole dièse au début de cette ligne&nbsp;:
-<note>#Une ligne commentée &nbsp;&nbsp;&nbsp;</note>
+<note>#Une ligne commentée</note>
 <li>
 </ul>
 
 Ce fichier doit être renommé 'Birthdays', puis copié dans le dossier 'Documents/Private'.
 
-<caution>Conservez à l'abri le fichier original dans un autre dossier. &nbsp;&nbsp;&nbsp;</caution>
+<caution>Conservez à l'abri le fichier original dans un autre dossier.</caution>
 
 Désormais, quand vous vous connectez, l'outil 'BirthNotify' vérifie si un anniversaire ou une fête coïncide avec la d	ate du jour et dans l'affirmative, il affiche une notification.
 
@@ -38,9 +38,8 @@ Vous pouvez exporter les informations de votre répertoire 'Birthdays' vers 'Sim
 Dans une invite de commande du Terminal, exécutez:
 
 <listing>
-cd&nbsp;Documents/Private &nbsp;&nbsp;&nbsp;<br />
-birth2vcf&nbsp;Birthdays &nbsp;&nbsp;&nbsp;<br />
-&nbsp;
+cd Documents/Private
+<br />birth2vcf Birthdays
 </listing>
 
 Cela produira un fichier 'bdyyyymmdd.vcf'.
@@ -48,9 +47,8 @@ Cela produira un fichier 'bdyyyymmdd.vcf'.
 Pour importer ce fichier dans le répertoire des adresses, faites ceci:
 
 <listing>
-openpapp&nbsp;AddressManager &nbsp;&nbsp;&nbsp;<br />
-menu:&nbsp;Database&nbsp;&gt;&nbsp;Import... &nbsp;&nbsp;&nbsp;<br />
-&nbsp;
+openpapp AddressManager
+<br />menu: Database / Import...
 </listing>
 
 Dans le dialogue 'Ouvrir', naviguez vers 'Documents/Private' et sélectionnez le fichier 'vcf' que vous avez précédemment créé. Voilà qui est fait.
@@ -64,9 +62,8 @@ Puis ouvrez 'SimpleAgenda' pour vérifier qu'il soit maintenant en mesure de ret
 Dans une invite de commande du Terminal, executez&nbsp;:
 
 <listing>
-cd&nbsp;Documents/Private &nbsp;&nbsp;&nbsp; <br />
-feast2ics&nbsp;Birthdays &nbsp;&nbsp;&nbsp; <br />
-&nbsp;
+cd Documents/Private
+<br />feast2ics Birthdays
 </listing>
 
 Cela produira un fichier de calendrier 'styyyymmdd.ics'.
@@ -74,8 +71,7 @@ Cela produira un fichier de calendrier 'styyyymmdd.ics'.
 Pour l'importer dans 'SimpleAgenda'&nbsp;:
 
 <listing>
-openapp&nbsp;SimpleAgenda&nbsp;styyyymmdd.ics&nbsp;&nbsp;&nbsp; <br />
-&nbsp;
+openapp SimpleAgenda styyyymmdd.ics
 </listing>
 
 C'est fait. Les fêtes seront affichées désormais dans l'agenda avec un fond jaune dans la vue Journée.

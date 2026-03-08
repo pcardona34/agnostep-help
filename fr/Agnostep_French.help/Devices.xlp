@@ -72,8 +72,7 @@ Une fois que ce disque a été déclaré, chaque fois qu'il sera monté en utili
 
 <br />		
 <information>
-À l'issue de l'opération précédente, patientez quelques secondes, le temps que le système synchronise les fichiers. Puis vous pouvez débrancher le disque amovible.&nbsp;&nbsp;
-<br>&nbsp;&nbsp;	
+À l'issue de l'opération précédente, patientez quelques secondes, le temps que le système synchronise les fichiers. Puis vous pouvez débrancher le disque amovible.
 </information>
 
 </section>
@@ -89,25 +88,23 @@ Certains contrôleurs SATA/USB3.0 de disques amovibles sont connus pour ne pas s
 
 Afin d'éviter des pertes de données  avec de tels disques, vous devez identifier avec certitude de tels contrôleurs: leur ID (obtenu avec la commande 'lsusb') débute par la série '152d' qui identifie un contrôleur 'JMicron'.
 
-		<br>Pour utiliser sans dommage de tels disques sur un port USB3, vous devez modifier la séquence de démarrage du noyau avec une exception comme ceci:<br>
+		Pour utiliser sans dommage de tels disques sur un port USB3, vous devez modifier la séquence de démarrage du noyau avec une exception comme ceci:
 
 <ol>
-<li>Éditez le fichier 'cmdline.txt' en tant que administateur:<br>
+<li>Éditez le fichier 'cmdline.txt' en tant que administateur:
 <listing>
-	sudo&nbsp;nano&nbsp;/boot/firmware/cmdline.txt&nbsp;&nbsp;&nbsp;&nbsp;
-	<br>&nbsp;&nbsp;
+	sudo nano /boot/firmware/cmdline.txt
 </listing>
 </li>
-<li>Ajoutez ceci au début de la ligne, mutatis mutandis, avec l'ID (xxxx:xxxx) de votre disque:<br>
-<note>usb-storage.quirks=xxxx:xxxx:u&nbsp;&nbsp;&nbsp;&nbsp;</note>
+<li>Ajoutez ceci au début de la ligne, mutatis mutandis, avec l'ID (xxxx:xxxx) de votre disque:
+<note>usb-storage.quirks=xxxx:xxxx:u</note>
 </li>
-<li>Enregistrez (F3), fermez (F2), déconnectez-vous et redémarrez l'ordinateur.<br>
-<listing>sudo&nbsp;reboot&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</listing>
+<li>Enregistrez (F3), fermez (F2), déconnectez-vous et redémarrez l'ordinateur.
+<listing>sudo reboot</listing>
 </li>
-<li>Connectez-vous, et suivez les étapes des <ref id="Prerequisite">Prérequis</ref>&nbsp; afin d'ajouter ce disque et de le rendre disponible pour votre espace de travail.</li>
+<li>Connectez-vous, et suivez les étapes des <ref id="Prerequisite">Prérequis</ref> afin d'ajouter ce disque et de le rendre disponible pour votre espace de travail.</li>
 </ol>
-	
-<br />
+
 <caution>
 Veillez à ne pas confondre l'ID (xxxx:xxxx) et l'UUID (XXXX-XXXX). L'ID identifie le fabricant du matériel tandis que l'UUID sert à identifier localement votre disque au sein de votre système.
 </caution>

@@ -26,14 +26,14 @@ On a PC keyboard, this is how the functions are mapped to the keys:
 <li>ALTERNATE: Alt-right</li>
 </ul>
 
-<br>Since keymappings can be changed, within this document the full function names are used to describe which keys need to be used.
+Since keymappings can be changed, within this document the full function names are used to describe which keys need to be used.
 
 </section>
 
 <section name="The First Time">
 
 Before we start to work with 'GWorkspace', we will enable the Desktop. To do this, start 'GWorkspace' if it is not already started. Click on the 'Tools' menu entry as shown in figure 1.
-<br>
+
 
 <section name="Figure 1: Enable the Desktop">
 <legendfig src="ToolsShowDesktop.tiff">
@@ -41,10 +41,7 @@ Before we start to work with 'GWorkspace', we will enable the Desktop. To do thi
 </legendfig>
 </section>
 
-<br>
-<note><br>Within the AGNoStep Desktop, the Desktop is already enabled.&nbsp;&nbsp;&nbsp;<br>;&nbsp;<br></note>
-
-<br>
+<note>Within the AGNoStep Desktop, the Desktop is already enabled.</note>
 
 </section>
 

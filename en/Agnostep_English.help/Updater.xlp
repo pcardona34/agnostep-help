@@ -38,7 +38,7 @@ To perform the Debian System upgrade, you have several ways to accomplish...
 
 <section name="7.2.1 Performing from the notification itself">
 
-Within the Conky Flavour, when the 'Updater' notification is shown, the (A) prefix means an action is associated. Click on the notification message with the right button of the mouse. A dmenu is shown. To perform the upgrading action, just hit the &lt;Enter&gt;&nbsp;key: it will perform the updgrade. To abort, select the other item on the menu with the &lt;Tab&gt;&nbsp;key...
+Within the Conky Flavour, when the 'Updater' notification is shown, the (A) prefix means an action is associated. Click on the notification message with the right button of the mouse. A dmenu is shown. To perform the upgrading action, just hit the &lt;Enter&gt;&nbsp;key: it will perform the upgrade. To abort, select the other item on the menu with the &lt;Tab&gt;&nbsp;key...
 
 </section>
 
@@ -48,13 +48,11 @@ You can use 'apt' command or use the 'Updater' one provided by AGNoStep.
 
 <section name="CLI commands">
 
-In a Terminal shell, execute the short or the long syntax:<br>&nbsp;
+In a Terminal shell, execute the short or the long syntax:
 
 <listing>
-&nbsp;<br />
-Updater&nbsp;-g &nbsp;&nbsp;&nbsp; <br />
-Updater&nbsp;--upgrade &nbsp;&nbsp;&nbsp; <br />
-&nbsp;
+Updater -g
+<br />Updater --upgrade
 </listing>
 
 </section>

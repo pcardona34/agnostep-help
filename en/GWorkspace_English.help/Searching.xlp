@@ -1,6 +1,6 @@
 <section  name="Introduction">
 
-When you select the 'Demo' folder and type <b>COMMAND-f</b>&nbsp; the 'Finder' is started. The Finder is also available from the 'Tools' section in the menu.
+When you select the 'Demo' folder and type <b>COMMAND-f</b> the 'Finder' is started. The Finder is also available from the 'Tools' section in the menu.
 
 <section name="Figure 4.1: Search Panel">
 <legendfig src="Search_Panel.tiff">
@@ -13,7 +13,7 @@ When you select the 'Demo' folder and type <b>COMMAND-f</b>&nbsp; the 'Finder' i
 </legendfig>
 </section>
 
-<br><br>If you search on 'Name' 'contains' 'est' and click 'Search' you get:
+If you search on 'Name' 'contains' 'est' and click 'Search' you get:
 
 <section name="Figure 4.2: Search results">
 <legendfig src="Results.tiff">
@@ -25,7 +25,7 @@ When you select the 'Demo' folder and type <b>COMMAND-f</b>&nbsp; the 'Finder' i
 </legendfig>
 </section>
 
-<br><br>Using the plus (+) and minus (-) signs you can add or remove more search options. This way you can create very complex constructions for very exact matches.
+Using the plus (+) and minus (-) signs you can add or remove more search options. This way you can create very complex constructions for very exact matches.
 
 </section>
 
@@ -38,20 +38,20 @@ You can search in a single folder, or you could build a list of folders where yo
 </legendfig>
 </section>
 
-<br><br>This way you can specify exactly where to search.
+This way you can specify exactly where to search.
 
 <section  name="4.1.1 Search by name">
 
 The 'Name' search option gives you the ability to search a file or folder by its name. To search on the exact match select 'is'. If you only know a part of the name then 'contains' might be better for you.
 
-<br><br>To further refine your search you can exclude the ones the 'contains not' or the 'start with' options. If you know the extension of the file you could e.g. filter out all '.txt' files by using the 'ends with' option.
+To further refine your search you can exclude the ones the 'contains not' or the 'start with' options. If you know the extension of the file you could e.g. filter out all '.txt' files by using the 'ends with' option.
 
 <section name="Figure 4.4: Filename items List">
 <legendfig src="Search_Name.tiff">
 </legendfig>
 </section>
 
-<br><br>The text field, in which you can type text, is case sensitive. So there is a distinction between uppercase and lowercase.
+The text field, in which you can type text, is case sensitive. So there is a distinction between uppercase and lowercase.
 
 </section>
 
@@ -59,7 +59,7 @@ The 'Name' search option gives you the ability to search a file or folder by its
 
 The file type search can be searched for in a match or does not match variant: 'is' or 'is not'
 
-<br><br>Currently the Finder functionality can be used to find folders, tools, applications, symbolic links and of course normal files like documents.
+Currently the Finder functionality can be used to find folders, tools, applications, symbolic links and of course normal files like documents.
 
 <section name="Figure 4.5: File Type Search">
 <legendfig src="Search_Type.tiff">
@@ -72,13 +72,13 @@ The file type search can be searched for in a match or does not match variant: '
 
 Using the 'contents' search option, one can search through the contents of documents for matches. Note that this might be a heavy task for your computer, since this will inspect the contents of the files and it needs to open and read them.
 
-<br><br>The text you enter is <b>case sensitive</b>, so only exact uppercase and lowercase matches are performed.
+The text you enter is <b>case sensitive</b>, so only exact uppercase and lowercase matches are performed.
 </section>
 
 <section  name="4.1.4 Search by annotation">
 
 Through the 'Annotations' Inspector one can add keywords to a file. And with the 'Annotations search option' you can search on the added keywords.
-<br>There are several ways to search through the annotations.
+There are several ways to search through the annotations.
 
 <section name="Figure 4.6: Annotations Search">
 <legendfig src="Search_Annotation.tiff">
@@ -89,7 +89,7 @@ Through the 'Annotations' Inspector one can add keywords to a file. And with the
 
 <section  name="4.1.5 Search by size">
 This search feature is quite simple. You can search on 'is greater than' or on is 'is less than'.
-<br>Combining the two using the (+) button you can define an almost exact match on the size of a document.
+Combining the two using the (+) button you can define an almost exact match on the size of a document.
 
 <section name="Figure 4.7: Search by Size">
 <legendfig src="Search_Size.tiff">
@@ -108,8 +108,8 @@ Using 'is' or 'is not' search options and filling in the username on which you w
 
 <b>Created or modified</b>
 
-<br><br>There are two ways a date is connected to a file. The first one is the date on which the file is created and the other is the last modified date. The Finder gives you the ability to search on both of these (date created and date modified).
-<br>Both options have a uniform structure for searchig the dates. The options on the left are the ones you can choose from, and after that you can, with some options, enter a date.
+There are two ways a date is connected to a file. The first one is the date on which the file is created and the other is the last modified date. The Finder gives you the ability to search on both of these (date created and date modified).
+Both options have a uniform structure for searchig the dates. The options on the left are the ones you can choose from, and after that you can, with some options, enter a date.
 
 <section name="Figure 4.8: Search by date">
 <legendfig src="Search_Date.tiff">
@@ -121,9 +121,9 @@ Using 'is' or 'is not' search options and filling in the username on which you w
 
 <section name="4.2 Live Search Folders">
 
-By dragging the 'Live Search Folder' from your 'Search results window' to e.g. the Desktop you can store the search for future use. A Live Search Folder is a Finder search saved in a file and capable of <b>auto-updating</b>&nbsp; itself.
+By dragging the 'Live Search Folder' from your 'Search results window' to e.g. the Desktop you can store the search for future use. A Live Search Folder is a Finder search saved in a file and capable of <b>auto-updating</b> itself.
 
-<br><br>To reuse this search double click the 'Live Search Folder'. The LSF window that will open has two buttons and a popup; the Edit button opens the folder editor where you can modify the search criteria used by the folder, the popup let you choose the auto-update cycle time and the Update now button updates the results.
+To reuse this search double click the 'Live Search Folder'. The LSF window that will open has two buttons and a popup; the Edit button opens the folder editor where you can modify the search criteria used by the folder, the popup let you choose the auto-update cycle time and the Update now button updates the results.
 
 <section name="Figure 4.9: Live Search">
 <legendfig src="LiveSearch.tiff">

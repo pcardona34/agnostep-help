@@ -6,29 +6,27 @@
 
 <plain name="Cover">
 
-		<center>
-	    	<img src="banniere_GW_UG.png">
-		</center>
+<center>
+  <img src="banniere_GW_UG.png">
+</center>
 
 <left>	
-	    <br><br>
-		<information>
-	    <br />GWorkspace is a Workspace Manager for GNUstep.
-		<br />It is a reimplementation of the NeXT workspace manager with some added features, an advanced database based search system, etc. Inspired by OpenStep's Workspace, it adds a Fiend and a TabbedShelf as a multipurpose launcher and container; while inspired by Mac's Finder, it offers a Dock.&nbsp;<br />&nbsp;
-	    </information>
+	    
+<information>
+	    GWorkspace is a Workspace Manager for GNUstep.
+		<br />It is a reimplementation of the NeXT workspace manager with some added features, an advanced database based search system, etc. Inspired by OpenStep's Workspace, it adds a Fiend and a TabbedShelf as a multipurpose launcher and container; while inspired by Mac's Finder, it offers a Dock.
+</information>
 
-	    <caution>
+<caution>
 	    &copy; GNUstep project and &copy; March 29, 2006 Dennis Leeuw for the original GWorkspace User Guide
-		<br>&copy; 2025 Patrick Cardona for this revisited User Guide for PiSiN Desktop first, then for AGNoStep.<br>&nbsp;
-	    </caution>
+		<br />&copy; 2025 Patrick Cardona for this revisited User Guide for PiSiN Desktop first, then for AGNoStep.
+</caution>
 
-	    <note>
-            <br>
-	    Site: original User Guide 	<url>http://gnustep.made-it.com/Guides/GWorkspace.html</url>&nbsp;&nbsp;
-            <br>
-	    Site: AGNoStep Project 			<br><url>https://github.com/pcardona34/agnostep</url>&nbsp;&nbsp;
-	    <br>&nbsp;<br>&nbsp;
-	    </note>
+<note>            
+	    Site: original User Guide <url>http://gnustep.made-it.com/Guides/GWorkspace.html</url>
+            
+	    <br />Site: AGNoStep Project <url>https://github.com/pcardona34/agnostep</url>
+</note>
 </left>
 </plain>
 

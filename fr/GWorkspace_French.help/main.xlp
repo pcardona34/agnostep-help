@@ -7,38 +7,32 @@
 
 <plain name="Couverture">
 
-		<center>
-	    	<img src="banniere_UG_FR.png">
-		</center>
+<center>
+	<img src="banniere_UG_FR.png">
+</center>
 
 <left>	
 	    <br><br>
 		<information>
-<br />&nbsp;
 	    GWorkspace est un Gestionnaire de l'Espace de travail pour GNUstep.
-		<br />C'est une réécriture du gestionnaire de l'espace de travail de NeXT, augmenté de nouvelles fonctionalités, d'une recherche avancée fondée sur une base de données système, etc. Inspiré aussi par le Workspace d'OpenStep, il ajoute un Fiend et une Étagère à onglets en guise de lanceur et de conteneur d'applications; enfin, inspiré par le Finder de MacOS, il offre aussi un Dock.&nbsp;<br />&nbsp;<br />&nbsp;
+		<br />C'est une réécriture du gestionnaire de l'espace de travail de NeXT, augmenté de nouvelles fonctionalités, d'une recherche avancée fondée sur une base de données système, etc. Inspiré aussi par le Workspace d'OpenStep, il ajoute un Fiend et une Étagère à onglets en guise de lanceur et de conteneur d'applications; enfin, inspiré par le Finder de MacOS, il offre aussi un Dock.
 	    </information>
 
 	    <caution>
-	    <br>&copy; projet GNUstep et &copy; 29 mars 2006 Dennis Leeuw pour le Guide Utilisateur de GWorkspace original &nbsp;
-		<br>&copy; 2025 Patrick Cardona pour ce Guide Utilisateur revisité pour le Bureau PiSiN d'abord, puis pour AGNoStep.<br>&nbsp;<br>&nbsp;
+	    &copy; projet GNUstep et &copy; 29 mars 2006 Dennis Leeuw pour le Guide Utilisateur de GWorkspace original.
+		<br />&copy; 2025 Patrick Cardona pour ce Guide Utilisateur revisité pour le Bureau PiSiN d'abord, puis pour AGNoStep.
 	    </caution>
 	   
 
 <note>
-<br>
-Site: Guide Utilisateur original<br>
-<url>http://gnustep.made-it.com/Guides/GWorkspace.html</url> &nbsp;&nbsp;&nbsp;
-<br>
-Site: Projet AGNoStep
-<br>
-<url>https://github.com/pcardona34/agnostep</url> &nbsp;&nbsp;&nbsp;
-<br>&nbsp;<br>&nbsp;
+Site: Guide Utilisateur original
+<br /><url>http://gnustep.made-it.com/Guides/GWorkspace.html</url>
+<br />Site: Projet AGNoStep
+<br /><url>https://github.com/pcardona34/agnostep</url>
 </note>
 
 </left>
 </plain>
-
 
 <chapter src="Legal.xlp" name="Permission"></chapter>
 <chapter src="Introduction.xlp" name="Introduction"></chapter>

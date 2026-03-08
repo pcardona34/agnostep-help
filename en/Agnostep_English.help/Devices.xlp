@@ -87,22 +87,21 @@ Some SATA/USB3.0 removable disks are known to not work with the UASP norm on Ras
 
 To avoid loss of data, be sure to identifiy such controllers: their ID (got with <b>lsusb</b> command) begins with '152d' which identifies a 'JMicron' controller.
 
-To use safely those disks, you must modify the boot kernel with quirks like this:<br>
+To use safely those disks, you must modify the boot kernel with quirks like this:
 
 <ol>
-<li>Edit the 'cmdline.txt' as a superuser:<br>
+<li>Edit the 'cmdline.txt' as a superuser:
 <listing>
-sudo&nbsp;nano&nbsp;/boot/firmware/cmdline.txt&nbsp;&nbsp;&nbsp;&nbsp;
-<br>&nbsp;&nbsp;
+sudo nano /boot/firmware/cmdline.txt
 </listing>
 </li>
-<li>Add this at the begining of the line, mutatis mutandis, with the ID (xxxx:xxxx) of your disk:<br>
-<note>usb-storage.quirks=xxxx:xxxx:u&nbsp;&nbsp;&nbsp;&nbsp;</note>
+<li>Add this at the begining of the line, mutatis mutandis, with the ID (xxxx:xxxx) of your disk:
+<note>usb-storage.quirks=xxxx:xxxx:u</note>
 </li>
-<li>Save (F3), close (F2), logout the Workspace, and reboot the Pi:<br>
-<listing>sudo&nbsp;reboot&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</listing>
+<li>Save (F3), close (F2), logout the Workspace, and reboot the Pi:
+<listing>sudo reboot</listing>
 </li>
-<li>Login and follow the <ref id="Prerequisite">Prerequisite</ref>&nbsp; steps to add your disk and make it available for your workspace.</li>
+<li>Login and follow the <ref id="Prerequisite">Prerequisite</ref> steps to add your disk and make it available for your workspace.</li>
 </ol>
 
 <br />

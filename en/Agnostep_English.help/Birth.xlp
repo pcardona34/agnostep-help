@@ -11,22 +11,27 @@ It is a text file: each line is an event with appropriate syntax:
 
 <ul>
 <li>Birthday syntax: key is 'bd':
-<note>Who=dd/mm/yyyy bd &nbsp;&nbsp;&nbsp;</note>
+<note>
+Who=dd/mm/yyyy bd
+</note>
 </li>
-
-
 <li>Feast syntax: key is 'st':
-<note>Who=dd/mm st &nbsp;&nbsp;&nbsp;</note>
+<note>
+Who=dd/mm st
+</note>
 </li>
-
 <li>To comment out a line, just add a sharp at the begining:
-<note>#A commented line &nbsp;&nbsp;&nbsp;</note>
+<note>
+#A commented line
+</note>
 <li>
 </ul>
 
 This file must be renamed 'Birthdays' and copied to the 'Documents/Private' folder.
 
-<caution>Keep safe the original file in another place. &nbsp;&nbsp;&nbsp;</caution>
+<caution>
+Keep safe the original file in another place.
+</caution>
 
 Now, when you log in, the 'BirthNotify' tool checks if a birthday or a feast is today and it arises with a notification if it is (on the Conky flavour) or it changes accordingly the 'Memo' tile of the Sysinfo top bar (on the C5C flavour).
 
@@ -41,9 +46,8 @@ You can export these infos from the Birthdays base into 'SimpleAgenda' and into 
 In a Terminal shell, execute:
 
 <listing>
-cd&nbsp;Documents/Private &nbsp;&nbsp;&nbsp;<br />
-birth2vcf&nbsp;Birthdays &nbsp;&nbsp;&nbsp;<br />
-&nbsp;
+cd Documents/Private
+<br />birth2vcf Birthdays
 </listing>
 
 It will produce a 'bdyyyymmdd.vcf' file.
@@ -51,9 +55,8 @@ It will produce a 'bdyyyymmdd.vcf' file.
 To import this file in the Address base: select the vcard file and hit ENTER, or:
 
 <listing>
-openpapp&nbsp;AddressManager &nbsp;&nbsp;&nbsp;<br />
-menu:&nbsp;Database&nbsp;&gt;&nbsp;Import... &nbsp;&nbsp;&nbsp;<br />
-&nbsp;
+openpapp AddressManager
+<br />menu: Database / Import...
 </listing>
 
 In the Open Panel, navigate to 'Documents/Private' and choose the 'vcf' file you have created. Thats done.
@@ -66,9 +69,8 @@ Then open 'SimpleAgenda' to verify it is able to retrieve the birthdays from the
 In a Terminal shell, execute:
 
 <listing>
-cd&nbsp;Documents/Private &nbsp;&nbsp;&nbsp; <br />
-feast2ics&nbsp;Birthdays &nbsp;&nbsp;&nbsp; <br />
-&nbsp;
+cd Documents/Private
+<br />feast2ics Birthdays
 </listing>
 
 It will produce a 'styyyymmdd.ics' calendar file.
@@ -76,8 +78,7 @@ It will produce a 'styyyymmdd.ics' calendar file.
 To import in SimpleAgenda:
 
 <listing>
-openapp&nbsp;SimpleAgenda&nbsp;styyyymmdd.ics&nbsp;&nbsp;&nbsp; <br />
-&nbsp;
+openapp SimpleAgenda styyyymmdd.ics
 </listing>
 
 That's done. The feasts will be shown now in the agenda with a yellow background in the Day view.
