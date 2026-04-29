@@ -1,5 +1,5 @@
 > [!CAUTION]
-> Since [Agnostep Desktop] release 2.0.0, **this repo is deprecated**: the relevant help bundles will be provided at compile time for each installed application.
+> Since [Agnostep Desktop](../../../agnostep-desktop) release 2.0.0, **this repo is deprecated**: the relevant help bundles will be provided at compile time for each installed application.
 
 # Agnostep Help
 
